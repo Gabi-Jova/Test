@@ -1,0 +1,32 @@
+/*root kontrollerar värden som jag kan använda lik som variabler i figma*/
+:root {
+    --color-green: #748974;
+    --color-background: #d6e5d6;
+    --color-box: #8678ef;
+    --color-text: #0000;
+
+    --font-heading: "redaction", serif;
+    --font-body: "redaction", serif;
+
+    --max-width: 1040;
+    --spacing: 20px;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+/* header och menu */
+
+/* Typography */
+h1 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1,15;
+    margin: 0 auto 16px;
+
+section {
+    padding: 0 24px;
+}
+}
